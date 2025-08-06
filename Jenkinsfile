@@ -1,7 +1,7 @@
 pipeline {
     agent any
         tools {
-        git 'Git_Installed'  // Must match the name in Global Tool Config
+        git 'Git_installed'  // Must match the name in Global Tool Config
     }
     stages {
         stage('Clone') {
